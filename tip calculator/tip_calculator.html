@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="tip.js"></script>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1><u>Tip Calculator</u></h1>
+        <label for="bill_amt" >Bill Amount : </label>
+        <input id="bill" type="number" name="bill_amt" title="bill amoutn"><br><br>
+        <label for="tip_amt" >Tip percentage : </label>
+        <input id="tip" type="number" name="tip_amt" title="tip percentage"><span>  %</span><br><br>
+        <label for="no_of_person" >total number of person : </label>
+        <input id="person" type="number" name="no_of_person" title="number of person"><br><br>
+        <button onclick="submit()">submit</button><br><br>
+        <label for="share"> share of one person : </label>
+        <input type="number" disabled id="share_person" name="share">
+        <!-- <label for="bill_amt" >Bill Amount : </label>
+        <input id="bill" type="text"> -->
+    </div>
+</body>
+</html>
