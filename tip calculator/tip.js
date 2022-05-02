@@ -10,3 +10,6 @@ function submit(){
     console.log(tip_amt);
     document.getElementById("share_person").value = tip_amt;
 }
+
+let x = document.getElementById("button");
+x.addEventListener("click",submit);
